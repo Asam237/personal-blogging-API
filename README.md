@@ -1,0 +1,46 @@
+## Introduction
+
+Google Dork Information Search Application
+
+<br/>
+
+## Composition
+
+This starter kit is composed of:
+
+- [Node.js 18](https://nodejs.org/en)
+  <br/>
+- [TypeScript](https://www.typescriptlang.org/)
+  <br/>
+- [Axios](https://axios-http.com/docs/intro)
+  <br/>
+- [Cheerio](https://cheerio.js.org/)
+  <br/>
+- [File System](https://nodejs.org/api/fs.html)
+  <br/>
+
+## Development
+
+From your terminal:
+
+```sh
+yarn
+yarn start
+```
+
+## Demo
+
+## Authors
+
+This project is maintained by:
+
+- Abba Sali Aboubakar Mamate ([@asam_237](https://twitter.com/asam_237))
+- my website: [https://abbasali.cm](https://abbasali.cm)
+- email: abbasaliaboubakar@gmail.com
+- mobile: (+237) 691846922
+
+<br/>
+
+## License
+
+[The MIT License.](https://opensource.org/licenses/MIT)
