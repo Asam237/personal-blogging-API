@@ -1,34 +1,34 @@
 ## Introduction
 
-Google Dork Information Search Application
+Personal Blogging API
 
 <br/>
+## Prerequisites
 
-## Composition
+- Node.js 16+
+- Yarn
 
-This starter kit is composed of:
+## Installation
 
-- [Node.js 18](https://nodejs.org/en)
-  <br/>
-- [TypeScript](https://www.typescriptlang.org/)
-  <br/>
-- [Axios](https://axios-http.com/docs/intro)
-  <br/>
-- [Cheerio](https://cheerio.js.org/)
-  <br/>
-- [File System](https://nodejs.org/api/fs.html)
-  <br/>
+- Create a `.env` file using the template `.env.example`
+- Install dependencies
 
-## Development
-
-From your terminal:
-
-```sh
-yarn
-yarn start
+```bash
+yarn install
 ```
 
-## Demo
+- Start Application
+
+```bash
+yarn serve
+```
+
+The application will be launched by [Nodemon](https://nodemon.com) so it's will restart automatically on file change
+
+Test the API with: `Postman`
+
+Swagger: `http://localhost:3010/api-docs/`  
+(Update the port number to match the one in `.env`)
 
 ## Authors
 
@@ -40,6 +40,8 @@ This project is maintained by:
 - mobile: (+237) 691846922
 
 <br/>
+
+## Screenshoot
 
 ## License
 
