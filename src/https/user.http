@@ -1,0 +1,18 @@
+### Register new user
+POST  http://localhost:3010/users/register 
+Content-Type: application/json
+
+{
+    "username": "asam",
+    "email": "asam@test.cm",
+    "password": "asam@1234"
+}
+
+### Login a user
+POST  http://localhost:3010/users/login
+Content-Type: application/json
+
+{
+    "username": "asam",
+    "password": "asam@1234"
+}
