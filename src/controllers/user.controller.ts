@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import * as bcrypt from "bcryptjs";
-import { UserInput } from "../types/user";
+import { UserInput } from "../types/user.type";
 import userService from "../services/user.service";
 
 const register = async (req: Request, res: Response) => {
