@@ -43,6 +43,9 @@ This project is maintained by:
 
 ## Screenshoot
 
+![Screenshot 2025-05-08 105544](https://github.com/user-attachments/assets/be1f4a15-91b9-4efe-932d-dbdf6020d88c)
+
+
 ## License
 
 [The MIT License.](https://opensource.org/licenses/MIT)
