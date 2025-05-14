@@ -31,7 +31,7 @@ Test the API with: `Postman`
 Swagger: `http://localhost:3010/api-docs/`  
 (Update the port number to match the one in `.env`)
 
-## Authors
+## Author
 
 This project is maintained by:
 
