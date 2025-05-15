@@ -3,6 +3,11 @@ import { users } from "../schemas/user.schema";
 import { UserInput } from "../types/user.type";
 import { db } from "../utils/db";
 
+/**
+ *
+ * @param input - User Input
+ * @returns user created
+ */
 const register = async (input: UserInput) => {
   const resp = await db.insert(users).values(input).returning();
   return resp.length > 0 ? resp[0] : null;
