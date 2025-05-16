@@ -13,6 +13,11 @@ const register = async (input: UserInput) => {
   return resp.length > 0 ? resp[0] : null;
 };
 
+/**
+ *
+ * @param username - string
+ * @returns user
+ */
 const findByUsername = async (username: string) => {
   const resp = await db
     .select()
